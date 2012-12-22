@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gurkensalat.android.locale.asteroid</groupId>
-    <artifactId>locale-asteroid-plugin</artifactId>
+    <artifactId>locale-ardrone-plugin</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>locale-asteroid-plugin</name>
+    <name>locale-ardrone-plugin</name>
 
     <inceptionYear>2012</inceptionYear>
-    <url>http://hakan42.github.com/locale-asteroid-plugin/</url>
+    <url>http://hakan42.github.com/locale-ardrone-plugin/</url>
     <description></description>
 
 </project>
