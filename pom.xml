@@ -27,6 +27,8 @@
     </modules>
 
     <properties>
+        <!-- TODO: Upgrade to 4.1.1_r1 to have access to TargetApi annotation -->
+        <!-- <platform.version>4.1.1_r1</platform.version> -->
         <platform.version>4.0.1.2</platform.version>
         <platform.sdk.version>17</platform.sdk.version>
     </properties>

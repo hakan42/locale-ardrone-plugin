@@ -1,6 +1,6 @@
 package com.gurkensalat.android.locale.ardrone.ui;
 
-import android.annotation.TargetApi;
+// import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -74,7 +74,7 @@ public final class EditActivity extends Activity
          */
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    // @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupTitleApi11()
     {
         CharSequence callingApplicationLabel = null;
@@ -162,13 +162,13 @@ public final class EditActivity extends Activity
         return true;
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    // @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupActionBarApi11()
     {
         getActionBar().setSubtitle(BreadCrumber.generateBreadcrumb(getApplicationContext(), getIntent(), getString(R.string.plugin_name)));
     }
 
-    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
+    // @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     private void setupActionBarApi14()
     {
         getActionBar().setDisplayHomeAsUpEnabled(true);

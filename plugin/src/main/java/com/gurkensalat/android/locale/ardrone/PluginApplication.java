@@ -1,6 +1,6 @@
 package com.gurkensalat.android.locale.ardrone;
 
-import android.annotation.TargetApi;
+// import android.annotation.TargetApi;
 import android.app.Application;
 import android.os.Build;
 import android.util.Log;
@@ -44,13 +44,13 @@ public final class PluginApplication extends Application
         }
     }
 
-    @TargetApi(Build.VERSION_CODES.GINGERBREAD)
+    // @TargetApi(Build.VERSION_CODES.GINGERBREAD)
     private static void enableApiLevel9Debugging()
     {
         android.os.StrictMode.enableDefaults();
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    // @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private static void enableApiLevel11Debugging()
     {
         android.app.LoaderManager.enableDebugLogging(true);
